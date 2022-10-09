@@ -1,7 +1,7 @@
 #backend
 
 
-in running the app, run the commands below.
+in running the app, run the commands below. \n
      - npm install
      - node app.js
 
