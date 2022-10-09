@@ -1,16 +1,24 @@
 #backend
 
+in running the app, run the commands below. 
 
-in running the app, run the commands below. \n
-     - npm install
-     - node app.js
 
+     npm install
+	 
+	 
+     node app.js
 
 list of endpoints
-    jobs
+    
+	
+	jobs
+	
         GET- http://localhost:3000/jobs/ <- get all job lists
-        GET- http://localhost:3000/jobs/:id (http://localhost:3000/jobs/00b2ff17-34dd-432e-a37e-a963352450ac) <- get a specific job using an id. ID can be found on /mockDaa/jobs.json
-        PUT - http://localhost:3000/jobs/:id <- updating of job status, payload should be.
+		
+		
+        GET- http://localhost:3000/jobs/:id <- get a specific job using an id. ID can be found on /mockDaa/jobs.json ex. url  (http://localhost:3000/jobs/00b2ff17-34dd-432e-a37e-a963352450ac)
+  
+  		PUT - http://localhost:3000/jobs/:id <- updating of job status, payload should be.
             {
                 "status": "scheduled"
             }
